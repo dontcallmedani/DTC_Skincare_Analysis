@@ -1,7 +1,7 @@
 # DTC_Skincare_Analysis
 
 ## Executive Summary
-This project analyzes 24 months of sales data for a direct-to-consumer (DTC) skincare brand to identify revenue growth opportunities. Through sales trend analysis and KPI tracking, clear seasonal patterns and high-performing product categories emerged. The analysis highlights opportunities to leverage peak seasonal demand, improve customer retention, and increase customer lifetime value (CLV) through targeted marketing initiatives and subscription offerings.
+This project analyzes 24 months of synthetic sales data for a direct-to-consumer (DTC) skincare brand to identify revenue growth opportunities. Through sales trend analysis and KPI tracking, clear seasonal patterns and high-performing product categories emerged. The analysis highlights opportunities to leverage peak seasonal demand, improve customer retention, and increase customer lifetime value (CLV) through targeted marketing initiatives and subscription offerings.
 Key recommendations include capitalizing on strong end-of-year sales momentum, introducing a strategic early summer campaign, and developing subscription models to drive repeat purchases.
 
 1. Leverage end-of-year seasonality: Capitalize on increased November and December demand by including free samples of hero products (exfoliators and serums) to encourage repeat purchases from new customers.
@@ -9,7 +9,7 @@ Key recommendations include capitalizing on strong end-of-year sales momentum, i
 3. Develop subscription offerings: Create and promote product subscriptions for repeat customers to increase retention and maximize customer lifetime value.
 
 ## Business Problem
-The objective of this project is to analyze the past 24 months of sales data for a DTC skincare brand and build an interactive dashboard that surfaces key performance indicators (KPIs). The central business question is:
+The objective of this project is to analyze the past 24 months of synthetic sales data for a DTC skincare brand and build an interactive dashboard that surfaces key performance indicators (KPIs). The central business question is:
 How can historical sales data be used to identify opportunities for revenue growth and improved customer lifetime value?
 
 ## Methodology
