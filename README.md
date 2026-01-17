@@ -36,6 +36,5 @@ Based on these findings, the following recommendations are proposed:
 3. Develop subscription offerings: Create and promote product subscriptions for repeat customers to increase retention and maximize customer lifetime value.
 
 ## Next Steps
-1.Incorporate marketing performance data to better evaluate campaign effectiveness and calculate return on ad spend (ROAS).
-
+1. Incorporate marketing performance data to better evaluate campaign effectiveness and calculate return on ad spend (ROAS).
 2. Use marketing data to calculate Customer Acquisition Cost (CAC) and assess the LTV:CAC ratio to further optimize growth strategy.
