@@ -21,6 +21,8 @@ AI / ChatGPT: Synthetic data generation
 
 Tableau: Data preparation (ETL), calculated fields, KPI analysis, and data visualization
 
+SQL: Aggregations to calculate KPIs, including revenue, AOV, and purchase frequency
+
 ## Results and Recommendations 
 Sales trend analysis revealed strong seasonality, with a significant revenue increase in November and December. Order volume increased by 32% from October to November, indicating heightened end-of-year demand. Exfoliators were the top-performing product category and primary revenue driver, followed by serums.
 
