@@ -34,3 +34,10 @@ SELECT Product_Category, ROUND(SUM(Order_Value))
 FROM 'skincare_dtc_transactions_24_months.csv'
 GROUP BY 1
 ORDER BY 2 DESC;
+
+-- revenue by channel
+SELECT Channel, ROUND(SUM(Order_Value))
+	AS total_revenue
+FROM 'skincare_dtc_transactions_24_months.csv'
+GROUP BY 1
+ORDER BY 2 DESC;
