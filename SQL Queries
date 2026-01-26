@@ -1,0 +1,28 @@
+-- view first 10 rows of data
+SELECT * 
+FROM 'skincare_dtc_transactions_24_months.csv' LIMIT 10;
+
+-- total revenue
+SELECT ROUND(SUM(Order_Value),2)
+	AS total_revenue
+FROM 'skincare_dtc_transactions_24_months.csv';
+
+-- total orders
+SELECT COUNT(Order_ID)
+	AS total_orders
+FROM 'skincare_dtc_transactions_24_months.csv';
+
+-- total distinct customers
+SELECT COUNT(DISTINCT Customer_ID)
+	AS total_customers
+FROM 'skincare_dtc_transactions_24_months.csv';
+
+-- average order value (AOV)
+SELECT ROUND(AVG(Order_Value),2)
+	AS avg_order_value
+FROM 'skincare_dtc_transactions_24_months.csv';
+
+-- purchase frequency
+SELECT ROUND(COUNT(Order_ID) / COUNT(DISTINCT Customer_ID), 2) 
+	AS purchase_frequency
+FROM 'skincare_dtc_transactions_24_months.csv';
