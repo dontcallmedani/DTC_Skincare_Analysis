@@ -1,6 +1,7 @@
 -- view first 10 rows of data
 SELECT * 
-FROM 'skincare_dtc_transactions_24_months.csv' LIMIT 10;
+FROM 'skincare_dtc_transactions_24_months.csv' 
+LIMIT 10;
 
 -- total revenue
 SELECT ROUND(SUM(Order_Value),2)
