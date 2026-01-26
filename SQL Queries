@@ -27,3 +27,10 @@ FROM 'skincare_dtc_transactions_24_months.csv';
 SELECT ROUND(COUNT(Order_ID) / COUNT(DISTINCT Customer_ID), 2) 
 	AS purchase_frequency
 FROM 'skincare_dtc_transactions_24_months.csv';
+
+-- top products by sales
+SELECT Product_Category, ROUND(SUM(Order_Value))
+	AS total_sales
+FROM 'skincare_dtc_transactions_24_months.csv'
+GROUP BY 1
+ORDER BY 2 DESC;
